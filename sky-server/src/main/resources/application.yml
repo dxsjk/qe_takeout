@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sky_take_out?
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+sky:
+  jwt:
+    admin-secret-key: 520zhexue
+    admin-ttl: 259200000
+    admin-token-name: token
